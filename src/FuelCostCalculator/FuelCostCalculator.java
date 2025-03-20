@@ -29,6 +29,8 @@ public class FuelCostCalculator {
         double costOfFuel = fuelNeeded * price;
         
         System.out.println("The total amount of Fuel is " + costOfFuel);
+
+// closing the scanner
          input.close();
     }
     
